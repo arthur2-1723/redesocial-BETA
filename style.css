@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-area {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#post-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#post-btn {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#posts-container {
+    /* Estilos para exibir os posts */
+}
+
+.post {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-weight: bold;
+}
